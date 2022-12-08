@@ -11,55 +11,44 @@
     height: 855px;
     width: 1500px;
     background: url('../assets/back-desktop.png');
-    background-size: 100%;
+    background-size: 100%
+  }
+
+  @media (max-width: 1000px) {
+    .header{
+      width: 100%;
+      background: url('../assets/back-desktop.png');
+      background-size: 100%
+    }
+    .container{
+      width: 100%;
+      height: 5%;
+    }
+
   }
 
   .nav{
     display: flex;
     align-items: center;
+    width: 100%;
+    height: 5%;
+  }
+
+  .logo-img{
+    position: relative;
+    left: 9.5rem;
+    top: 1.5rem;
   }
 
   .menu{
     display: flex;
-  }
-
-  .logo-img{
-    position: absolute;
-    left: 10.83%;
-    right: 76.92%;
-    top: 3.50%;
-    bottom: 98.41%;
+    margin-left: 18rem;
   }
 
   .menuitem{
-    margin-left: 450px;
-    height: 13px;
-    margin-top: 48px;
-    color: aliceblue;
-    list-style-type: none;
-  }
-
-  .menuitem_1{
-    margin-left: 130px;
-    height: 13px;
-    margin-top: 48px;
-    color: aliceblue;
-    list-style-type: none;
-  }
-
-  .menuitem_2{
-    margin-left: 130px;
-    height: 13px;
-    margin-top: 48px;
-    color: aliceblue;
-    list-style-type: none;
-  }
-
-  .menuitem_3{
-    margin-left: 130px;
-    height: 13px;
-    margin-top: 48px;
-    color: aliceblue;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 50%;
     list-style-type: none;
   }
 
@@ -69,42 +58,46 @@
   }
 
   .phone{
-    position: absolute;
-    width: 1050px;
-    height: 645px;
-    left: 200px;
-    top: 208px;
+    position: relative;
+    left: 12.5rem;
+    top: 8.5rem;
+  }
 
+  .logos{
+    position: relative;
+    width: 20rem;
+    left: 9rem;
+    bottom: 11rem;
+  }
+
+  .platform{
+    position: relative;
+    margin-left: 2rem;
   }
   
   .mainInfo{
     position: absolute;
-    width: 300px;
-    height: 174px;
-    left: 170px;
-    top: 224px;
+    left: 11.5rem;
+    top: 13rem;
     
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 300;
     font-size: 50px;
     line-height: 68px;
-    display: flex;
     align-items: center;
     text-align: center;
-    
     color: #FFFFFF;
-    
   }
 
   .download{
     box-sizing: border-box;
 
     position: absolute;
-    width: 300px;
-    height: 56px;
-    left: 130px;
-    top: 449px;
+    width: 18rem;
+    height: 4rem;
+    left: 9rem;
+    top: 27rem;
 
     border: 3px solid #FFFFFF;
     border-radius: 29px;
@@ -118,14 +111,16 @@
     line-height: 18px;
   }
 
-  .logo-platforms{
+  .osLogo{
     position: absolute;
-    width: 205px;
-    height: 56px;
-    left: 177px;
-    top: 572px;
-  }
+    top: 35rem;
+    left: 10rem;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
 
+  }
+ 
   .underLogo{
     position: absolute;
     width: 300px;
@@ -283,7 +278,6 @@
   }
 
   .pink{
-
     position: absolute;
     width: 252px;
     height: 103px;
@@ -301,12 +295,9 @@
     text-align: center;
 
     color: #283645;
-
-
   }
 
   .smile{
-
     position: absolute;
     width: 252px;
     height: 103px;
@@ -629,6 +620,47 @@
   background: url('../assets/Group9.png');
   background-size: 100%;
 }
+
+footer{
+  position: absolute;
+  left: 0;
+  top: 270rem;
+  height: 10.5rem;
+  width: 100%;
+}
+
+.logoFooter{
+  position: relative;
+  left: 9.5rem;
+  top: 4rem;
+}
+
+.footerMenu{
+  display: flex;
+  margin-left: 38rem;
+}
+
+.social{
+  position: relative;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  list-style-type: none;
+}
+
+.htmlLogo{
+  position: absolute;
+  top: 4.5rem;
+  right: 9.5rem;
+
+}
+
+.create{
+  position: absolute;
+  top: 4.8rem;
+  right: 11.7rem;
+}
+
+
 
   
 
